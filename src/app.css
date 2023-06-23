@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+:root {
+  --orange: #e9905a;
+  --black: #1d1e2c;
+  --white: #ffffff;
+
+  --orange-hover: #d0804d;
+  --black-hover: #13141d;
+  --white-hover: #e6e6e6;
+
+  --black-shadow: #1d1e2c1b;
+  --black-shadow-soft: #1d1e2c11;
+
+  --deep-green: #104547;
+  --light-green: #549f93;
+}
+
+@font-face {
+  font-family: hertical;
+  src: url(../public/fonts/Hertical\ Sans.ttf);
+}
+
+@font-face {
+  font-family: roxborough;
+  src: url(../public/fonts/Roxborough\ CF.ttf);
+}
