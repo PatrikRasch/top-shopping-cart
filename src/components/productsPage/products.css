@@ -1,0 +1,34 @@
+.all-products-background {
+  display: flex;
+  justify-content: center;
+}
+
+.all-products {
+  width: 1800px;
+  display: grid;
+  grid-template-columns: repeat(4, 450px);
+  padding: 15px;
+}
+
+/*/ MEDIUM */
+@media (max-width: 1800px) {
+  .all-products {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
+
+/*/ MEDIUM 2 */
+@media (max-width: 1500px) {
+  .all-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  }
+}
+
+/*/ MOBILE */
+@media (max-width: 800px) {
+  .all-products {
+    width: 100vw;
+    padding: 0px;
+  }
+}

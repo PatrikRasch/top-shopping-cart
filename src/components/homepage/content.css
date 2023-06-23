@@ -1,0 +1,159 @@
+.content-wrapper,
+.content-images-wrapper {
+  max-height: 86vh;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  position: relative;
+}
+
+.content-images-wrapper {
+  display: grid;
+  grid-template-columns: 33.34vw 33.34vw 33.34vw;
+  background-color: var(--black);
+}
+
+.single-image-wrapper {
+  max-width: 33.34vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.content-image-shading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--orange);
+  opacity: 0.03;
+}
+
+.content-image {
+  height: 110vh;
+  width: 200%;
+  width: auto;
+}
+
+.content-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  text-shadow: 0px 0px 75px var(--black);
+  color: var(--white);
+  text-align: center;
+  font-family: roxborough;
+}
+
+.shop-now {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  border: none;
+  background-color: var(--orange);
+  color: var(--black);
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 5px;
+  box-shadow: 0px 0px 500px 5px var(--black);
+}
+
+.shop-now:hover {
+  background-color: var(--orange-hover);
+}
+
+/*/ MEDIUM */
+@media (max-width: 1500px) {
+  .content-wrapper,
+  .content-images-wrapper {
+    max-height: 84vh;
+  }
+
+  .content-images-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .single-image-wrapper {
+    max-width: 300vw;
+  }
+
+  .content-image-shading {
+    z-index: 7;
+  }
+
+  .content-image {
+    z-index: 5;
+    height: 100vh;
+    display: block;
+    width: auto;
+  }
+
+  .content-title {
+    top: 40%;
+    z-index: 10;
+  }
+
+  .shop-now {
+    top: 65%;
+    z-index: 7;
+  }
+}
+
+/*/ MOBILE */
+@media (max-width: 800px) {
+  .content-wrapper,
+  .content-images-wrapper {
+    max-height: 80vh;
+  }
+
+  .content-images-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .single-image-wrapper {
+    max-width: 300vw;
+  }
+
+  .content-image1 {
+    z-index: 5;
+    height: 100vh;
+    aspect-ratio: initial;
+    display: block;
+    width: auto;
+    overflow: visible;
+    justify-self: center;
+  }
+
+  .content-image2,
+  .content-image3 {
+    z-index: 0;
+    opacity: 0;
+  }
+
+  .content-title {
+    top: 40%;
+    font-size: 56px;
+    width: 100vw;
+    z-index: 10;
+  }
+
+  .shop-now {
+    top: 60%;
+    z-index: 15;
+  }
+}
+
+/* / ULTRAWIDE */
+@media (min-width: 2800px) {
+  .content-image {
+    height: 150vh;
+    width: 200%;
+    width: auto;
+  }
+}

@@ -1,0 +1,241 @@
+.cart {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  display: grid;
+  width: 600px;
+  justify-content: center;
+  grid-template-rows: 8vh 67vh 25vh;
+  height: 100vh;
+  background-color: white;
+}
+
+.cart-title {
+  font-size: 36px;
+  font-family: arial;
+  max-height: 8vh;
+  font-weight: 600;
+  align-self: center;
+  justify-self: center;
+  padding-top: 10px;
+}
+
+.empty-basket-message {
+  width: 80%;
+  height: 100%;
+  width: 500px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 32px;
+  text-align: center;
+  font-family: hertical;
+}
+
+.cart-all-cards {
+  overflow: scroll;
+  max-height: 70vh;
+}
+
+.cart-card {
+  width: 500px;
+  height: 230px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 20px;
+  font-size: 24px;
+}
+
+.cart-card-left {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.cart-card-right {
+  font-family: arial;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 80%;
+  align-self: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.cart-item-title {
+  text-align: center;
+  max-width: 90%;
+}
+.cart-item-price {
+  font-weight: 400;
+}
+.cart-item-image {
+  max-height: 180px;
+}
+
+.cart-number-of-item-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 55%;
+  align-items: center;
+}
+.cart-number-of-item {
+  font-weight: 400;
+  justify-self: center;
+}
+
+.remove-one-item,
+.add-one-item {
+  justify-self: center;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  width: 90%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  background-color: rgb(220, 220, 220);
+  border-radius: 5px;
+  color: var(--black);
+  transition: 0.1s;
+}
+
+.remove-one-item:hover,
+.add-one-item:hover {
+  background-color: rgb(215, 215, 215);
+}
+
+.cart-summary {
+  top: 15%;
+  left: 30%;
+  max-height: 25vh;
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 1fr 0.4fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.totalPrice,
+.checkout-button,
+.close-button {
+  font-family: arial;
+  font-weight: 600;
+}
+
+.totalPrice {
+  font-size: 40px;
+  white-space: nowrap;
+  justify-self: center;
+}
+
+.checkout-button,
+.close-button {
+  width: 500px;
+  height: 80%;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.checkout-button {
+  background-color: var(--orange);
+}
+.checkout-button:hover {
+  background-color: #e28d57;
+}
+.close-button {
+  background-color: rgba(255, 83, 83, 0.849);
+}
+.close-button:hover {
+  background-color: rgba(245, 73, 79, 0.849);
+}
+
+/*/ MEDIUM */
+@media (max-width: 1800px) {
+  .cart-title {
+    font-size: 26px;
+    max-height: 8vh;
+  }
+  .empty-basket-message {
+    font-size: 32px;
+  }
+  .cart-card {
+    width: 450px;
+    height: 190px;
+    font-size: 20px;
+  }
+  .cart-item-image {
+    max-height: 150px;
+  }
+  .remove-one-item,
+  .add-one-item {
+    font-size: 26px;
+  }
+  .cart-summary {
+    grid-template-rows: 1fr 1fr 1fr 0.2fr;
+    gap: 5px;
+  }
+  .totalPrice {
+    font-size: 26px;
+  }
+  .checkout-button,
+  .close-button {
+    width: 450px;
+    font-size: 20px;
+  }
+  /* .cart-card-left {
+  }
+  .cart-card-right {
+    max-width: 200px;
+    overflow: hidden;
+  } */
+}
+
+/*/ PHONE */
+@media (max-width: 500px) {
+  .cart {
+    box-sizing: border-box;
+    width: 100vw;
+    justify-content: center;
+    grid-template-rows: 8vh 67vh 25vh;
+    height: 100vh;
+    background-color: white;
+  }
+
+  .cart-card-right {
+    font-family: arial;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 80%;
+    align-self: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .cart-title {
+    font-size: 26px;
+    max-height: 8vh;
+  }
+  .empty-basket-message {
+    font-size: 32px;
+    width: 90vw;
+  }
+  .cart-card {
+    width: 360px;
+    height: 190px;
+    font-size: 20px;
+  }
+  .cart-item-image {
+    max-height: 150px;
+    max-width: 180px;
+  }
+  .remove-one-item,
+  .add-one-item {
+    font-size: 20px;
+  }
+  .checkout-button,
+  .close-button {
+    width: 80vw;
+  }
+}
