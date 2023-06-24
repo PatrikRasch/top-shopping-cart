@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/top-shopping-cart/static/css/main.44936487.css",
+    "main.css": "/top-shopping-cart/static/css/main.b045cc40.css",
     "main.js": "/top-shopping-cart/static/js/main.c9995756.js",
     "static/media/shirt3.png": "/top-shopping-cart/static/media/shirt3.a3c136203ebab7862c48.png",
     "static/media/shoes1.png": "/top-shopping-cart/static/media/shoes1.e5efca48bca9bdea67ca.png",
@@ -36,11 +36,11 @@
     "static/media/Roxborough CF.ttf": "/top-shopping-cart/static/media/Roxborough CF.9125fc0356b43576475d.ttf",
     "static/media/Hertical Sans.ttf": "/top-shopping-cart/static/media/Hertical Sans.4ae16e1b1ba295af11e7.ttf",
     "index.html": "/top-shopping-cart/index.html",
-    "main.44936487.css.map": "/top-shopping-cart/static/css/main.44936487.css.map",
+    "main.b045cc40.css.map": "/top-shopping-cart/static/css/main.b045cc40.css.map",
     "main.c9995756.js.map": "/top-shopping-cart/static/js/main.c9995756.js.map"
   },
   "entrypoints": [
-    "static/css/main.44936487.css",
+    "static/css/main.b045cc40.css",
     "static/js/main.c9995756.js"
   ]
 }
