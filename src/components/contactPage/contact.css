@@ -69,7 +69,7 @@
 @media (max-width: 800px) {
   .contact-wrapper {
     grid-template-rows: 1.5fr 1fr;
-    height: 80vh;
+    height: 75vh;
   }
 
   .all-icons-wrapper {
@@ -85,7 +85,7 @@
     max-width: 90vw;
     justify-self: center;
     max-height: 120px;
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .contact-page-footer {

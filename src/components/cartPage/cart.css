@@ -8,6 +8,7 @@
   grid-template-rows: 8vh 67vh 25vh;
   height: 100vh;
   background-color: white;
+  color: var(--black);
 }
 
 .cart-title {
@@ -95,7 +96,6 @@
   cursor: pointer;
   background-color: rgb(220, 220, 220);
   border-radius: 5px;
-  color: var(--black);
   transition: 0.1s;
 }
 
@@ -185,12 +185,6 @@
     width: 450px;
     font-size: 20px;
   }
-  /* .cart-card-left {
-  }
-  .cart-card-right {
-    max-width: 200px;
-    overflow: hidden;
-  } */
 }
 
 /*/ PHONE */
@@ -230,9 +224,16 @@
     max-height: 150px;
     max-width: 180px;
   }
+  .cart-number-of-item-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    align-items: center;
+  }
   .remove-one-item,
   .add-one-item {
     font-size: 20px;
+    width: 65%;
   }
   .checkout-button,
   .close-button {

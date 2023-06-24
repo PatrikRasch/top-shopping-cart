@@ -109,7 +109,7 @@
 @media (max-width: 800px) {
   .content-wrapper,
   .content-images-wrapper {
-    max-height: 80vh;
+    max-height: 75vh;
   }
 
   .content-images-wrapper {
