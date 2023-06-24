@@ -195,11 +195,14 @@
     justify-content: center;
     row-gap: 10px;
     height: 25vh;
+    width: 100vw;
+    align-items: center;
   }
 
   .header-buttons {
     gap: 0px;
-    padding: 0px 30px 0px 30px;
+    width: 80vw;
+    justify-self: center;
   }
 
   .header-title {
