@@ -222,6 +222,13 @@
     font-size: 16px;
   }
 
+  .item-count {
+    width: 40%;
+    height: 40%;
+    left: 75%;
+    top: 0;
+  }
+
   /* header-wrapper-background
 header-wrapper
 header-title      

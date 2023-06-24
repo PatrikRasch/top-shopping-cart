@@ -80,6 +80,7 @@
   width: 55%;
   align-items: center;
 }
+
 .cart-number-of-item {
   font-weight: 400;
   justify-self: center;
@@ -97,6 +98,9 @@
   background-color: rgb(220, 220, 220);
   border-radius: 5px;
   transition: 0.1s;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .remove-one-item:hover,
