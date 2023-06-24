@@ -113,6 +113,7 @@
 .header-title,
 .header-button {
   cursor: pointer;
+  align-self: center;
 }
 
 .home-button:hover,
@@ -197,9 +198,10 @@
   .header-buttons {
     gap: 0px;
     display: flex;
-    /* grid-template-columns: repeat(4, 23vw); */
-    justify-content: space-evenly;
-    justify-self: center;
+    justify-content: space-around;
+    max-width: 80vw;
+
+    /* justify-self: center; */
   }
 
   .header-title {
