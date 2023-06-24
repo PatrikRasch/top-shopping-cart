@@ -197,11 +197,9 @@
 
   .header-buttons {
     gap: 0px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 22vw);
     justify-content: space-around;
-    max-width: 80vw;
-
-    /* justify-self: center; */
   }
 
   .header-title {
