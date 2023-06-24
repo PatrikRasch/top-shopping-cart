@@ -198,8 +198,8 @@
   .header-buttons {
     gap: 0px;
     display: grid;
-    grid-template-columns: repeat(4, 22vw);
-    justify-content: space-around;
+    grid-template-columns: repeat(4, 23vw);
+    overflow: visible;
   }
 
   .header-title {
@@ -208,7 +208,7 @@
   }
 
   .header-button {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .shopping-cart-circle {
