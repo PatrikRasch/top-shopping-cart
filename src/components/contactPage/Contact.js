@@ -1,10 +1,10 @@
 import "./contact.css";
 
-import github from "../../images/contact-page/github-black.webp";
-import facebook from "../../images/contact-page/facebook-black.webp";
-import messenger from "../../images/contact-page/messenger-black.webp";
-import twitter from "../../images/contact-page/twitter-black.webp";
-import instagram from "../../images/contact-page/instagram-black.webp";
+import github from "../../images/contact-page/github-black.png";
+import facebook from "../../images/contact-page/facebook-black.png";
+import messenger from "../../images/contact-page/messenger-black.png";
+import twitter from "../../images/contact-page/twitter-black.png";
+import instagram from "../../images/contact-page/instagram-black.png";
 import footerImage from "../../images/contact-page/footer-orange1.webp";
 
 const Contact = () => {

@@ -24,3 +24,5 @@ yarn-error.log*
 
 # ignore the assets for guiding the app
 /assets
+/src/images/original-images
+/src/images/excess-images
