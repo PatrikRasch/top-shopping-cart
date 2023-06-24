@@ -234,9 +234,11 @@
   .add-one-item {
     font-size: 20px;
     width: 65%;
+    color: var(--black) !important;
   }
   .checkout-button,
   .close-button {
     width: 80vw;
+    color: var(--black) !important;
   }
 }

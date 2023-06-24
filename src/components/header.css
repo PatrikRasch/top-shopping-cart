@@ -196,7 +196,9 @@
 
   .header-buttons {
     gap: 0px;
-    grid-template-columns: repeat(4, 23vw);
+    display: flex;
+    /* grid-template-columns: repeat(4, 23vw); */
+    justify-content: space-evenly;
     justify-self: center;
   }
 
