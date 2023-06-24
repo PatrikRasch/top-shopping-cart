@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/top-shopping-cart/static/css/main.fd21dc17.css",
-    "main.js": "/top-shopping-cart/static/js/main.01713d84.js",
+    "main.js": "/top-shopping-cart/static/js/main.d5e1f41c.js",
     "static/media/shirt3.png": "/top-shopping-cart/static/media/shirt3.a3c136203ebab7862c48.png",
     "static/media/shoes1.png": "/top-shopping-cart/static/media/shoes1.e5efca48bca9bdea67ca.png",
     "static/media/jacket1.png": "/top-shopping-cart/static/media/jacket1.196577b07befccb7fbb9.png",
     "static/media/shirt16.png": "/top-shopping-cart/static/media/shirt16.53457cdf04fbf7b8f40e.png",
-    "static/media/jacket6.png": "/top-shopping-cart/static/media/jacket6.5296ed5b7f68509e1a9e.png",
     "static/media/content-page4.webp": "/top-shopping-cart/static/media/content-page4.ede44480d3a6dfd41032.webp",
     "static/media/content-page9.webp": "/top-shopping-cart/static/media/content-page9.703eb4bbe15e3b029a22.webp",
     "static/media/shirt15.png": "/top-shopping-cart/static/media/shirt15.ef8bb6fa5ac8af05cefd.png",
@@ -26,7 +25,6 @@
     "static/media/shirt1.png": "/top-shopping-cart/static/media/shirt1.96948a00e511cdcdd777.png",
     "static/media/shirt2.png": "/top-shopping-cart/static/media/shirt2.6e511e50b5c4cb3d7065.png",
     "static/media/shirt11.png": "/top-shopping-cart/static/media/shirt11.331e3b7f04c516ead551.png",
-    "static/media/shirt13.png": "/top-shopping-cart/static/media/shirt13.78290ce03d6483ae5a8a.png",
     "static/media/Roxborough CF.ttf": "/top-shopping-cart/static/media/Roxborough CF.9125fc0356b43576475d.ttf",
     "static/media/instagram-black.webp": "/top-shopping-cart/static/media/instagram-black.a37fa1dd681d0496f77c.webp",
     "static/media/twitter-black.webp": "/top-shopping-cart/static/media/twitter-black.dea796b72042d31b4b9b.webp",
@@ -37,10 +35,10 @@
     "static/media/footer-orange1.webp": "/top-shopping-cart/static/media/footer-orange1.5cca3d724ef432dc3f9f.webp",
     "index.html": "/top-shopping-cart/index.html",
     "main.fd21dc17.css.map": "/top-shopping-cart/static/css/main.fd21dc17.css.map",
-    "main.01713d84.js.map": "/top-shopping-cart/static/js/main.01713d84.js.map"
+    "main.d5e1f41c.js.map": "/top-shopping-cart/static/js/main.d5e1f41c.js.map"
   },
   "entrypoints": [
     "static/css/main.fd21dc17.css",
-    "static/js/main.01713d84.js"
+    "static/js/main.d5e1f41c.js"
   ]
 }
