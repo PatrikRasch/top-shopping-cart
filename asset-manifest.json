@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/top-shopping-cart/static/css/main.b045cc40.css",
-    "main.js": "/top-shopping-cart/static/js/main.c9995756.js",
+    "main.css": "/top-shopping-cart/static/css/main.bf68da84.css",
+    "main.js": "/top-shopping-cart/static/js/main.01713d84.js",
     "static/media/shirt3.png": "/top-shopping-cart/static/media/shirt3.a3c136203ebab7862c48.png",
     "static/media/shoes1.png": "/top-shopping-cart/static/media/shoes1.e5efca48bca9bdea67ca.png",
     "static/media/jacket1.png": "/top-shopping-cart/static/media/jacket1.196577b07befccb7fbb9.png",
@@ -23,24 +23,24 @@
     "static/media/content-page7.webp": "/top-shopping-cart/static/media/content-page7.6177aeb2582da54034a4.webp",
     "static/media/tshirt2.png": "/top-shopping-cart/static/media/tshirt2.702b2477533b90f44492.png",
     "static/media/hoodie1.png": "/top-shopping-cart/static/media/hoodie1.c466ef1782e4b9af8610.png",
-    "static/media/instagram-black.png": "/top-shopping-cart/static/media/instagram-black.e9be8cf1fc856d1d9e0e.png",
     "static/media/shirt1.png": "/top-shopping-cart/static/media/shirt1.96948a00e511cdcdd777.png",
-    "static/media/twitter-black.png": "/top-shopping-cart/static/media/twitter-black.2c0d81c2846f3a2198c1.png",
-    "static/media/github-black.png": "/top-shopping-cart/static/media/github-black.78de0f6e442b583c9e09.png",
     "static/media/shirt2.png": "/top-shopping-cart/static/media/shirt2.6e511e50b5c4cb3d7065.png",
-    "static/media/facebook-black.png": "/top-shopping-cart/static/media/facebook-black.f510d5cdcef78e4d53ca.png",
-    "static/media/messenger-black.png": "/top-shopping-cart/static/media/messenger-black.9566a2a58368881cd9dc.png",
     "static/media/shirt11.png": "/top-shopping-cart/static/media/shirt11.331e3b7f04c516ead551.png",
     "static/media/shirt13.png": "/top-shopping-cart/static/media/shirt13.78290ce03d6483ae5a8a.png",
-    "static/media/footer-orange1.png": "/top-shopping-cart/static/media/footer-orange1.78d64a1dbc6c6277e9de.png",
     "static/media/Roxborough CF.ttf": "/top-shopping-cart/static/media/Roxborough CF.9125fc0356b43576475d.ttf",
+    "static/media/instagram-black.webp": "/top-shopping-cart/static/media/instagram-black.a37fa1dd681d0496f77c.webp",
+    "static/media/twitter-black.webp": "/top-shopping-cart/static/media/twitter-black.dea796b72042d31b4b9b.webp",
+    "static/media/messenger-black.webp": "/top-shopping-cart/static/media/messenger-black.7280e0519c1c0228ac91.webp",
     "static/media/Hertical Sans.ttf": "/top-shopping-cart/static/media/Hertical Sans.4ae16e1b1ba295af11e7.ttf",
+    "static/media/github-black.webp": "/top-shopping-cart/static/media/github-black.f20f2da6b4cbb3114372.webp",
+    "static/media/facebook-black.webp": "/top-shopping-cart/static/media/facebook-black.289790d6f8f19563b359.webp",
+    "static/media/footer-orange1.webp": "/top-shopping-cart/static/media/footer-orange1.5cca3d724ef432dc3f9f.webp",
     "index.html": "/top-shopping-cart/index.html",
-    "main.b045cc40.css.map": "/top-shopping-cart/static/css/main.b045cc40.css.map",
-    "main.c9995756.js.map": "/top-shopping-cart/static/js/main.c9995756.js.map"
+    "main.bf68da84.css.map": "/top-shopping-cart/static/css/main.bf68da84.css.map",
+    "main.01713d84.js.map": "/top-shopping-cart/static/js/main.01713d84.js.map"
   },
   "entrypoints": [
-    "static/css/main.b045cc40.css",
-    "static/js/main.c9995756.js"
+    "static/css/main.bf68da84.css",
+    "static/js/main.01713d84.js"
   ]
 }
