@@ -113,7 +113,6 @@
 .header-title,
 .header-button {
   cursor: pointer;
-  align-self: center;
 }
 
 .home-button:hover,
@@ -191,14 +190,13 @@
     justify-content: center;
     row-gap: 10px;
     height: 25vh;
-    width: 80vw;
     align-items: center;
     overflow: hidden;
   }
 
   .header-buttons {
     gap: 0px;
-    /* width: 10vw; */
+    grid-template-columns: repeat(4, 23vw);
     justify-self: center;
   }
 
@@ -222,5 +220,8 @@
     font-size: 16px;
   }
 
-  /* .header-wrapper .header-title .header-buttons; */
+  /* header-wrapper-background
+header-wrapper
+header-title      
+header-buttons */
 }
