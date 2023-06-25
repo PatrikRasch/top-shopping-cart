@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/top-shopping-cart/static/css/main.7aa7f469.css",
-    "main.js": "/top-shopping-cart/static/js/main.8b459188.js",
+    "main.css": "/top-shopping-cart/static/css/main.d74d1c45.css",
+    "main.js": "/top-shopping-cart/static/js/main.27fb3583.js",
     "static/media/content-page4.webp": "/top-shopping-cart/static/media/content-page4.ede44480d3a6dfd41032.webp",
     "static/media/content-page9.webp": "/top-shopping-cart/static/media/content-page9.703eb4bbe15e3b029a22.webp",
     "static/media/shirt7.png": "/top-shopping-cart/static/media/shirt7.5a4e0e4db3ee522e0682.png",
@@ -33,11 +33,12 @@
     "static/media/footer-orange1.webp": "/top-shopping-cart/static/media/footer-orange1.5cca3d724ef432dc3f9f.webp",
     "static/media/twitter-black.png": "/top-shopping-cart/static/media/twitter-black.17e73632a285095e1ecc.png",
     "index.html": "/top-shopping-cart/index.html",
-    "main.7aa7f469.css.map": "/top-shopping-cart/static/css/main.7aa7f469.css.map",
-    "main.8b459188.js.map": "/top-shopping-cart/static/js/main.8b459188.js.map"
+    "static/media/check-symbol.svg": "/top-shopping-cart/static/media/check-symbol.83ba0203b6adbb921420db9edd635a02.svg",
+    "main.d74d1c45.css.map": "/top-shopping-cart/static/css/main.d74d1c45.css.map",
+    "main.27fb3583.js.map": "/top-shopping-cart/static/js/main.27fb3583.js.map"
   },
   "entrypoints": [
-    "static/css/main.7aa7f469.css",
-    "static/js/main.8b459188.js"
+    "static/css/main.d74d1c45.css",
+    "static/js/main.27fb3583.js"
   ]
 }
