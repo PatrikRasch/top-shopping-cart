@@ -7,9 +7,27 @@ export function useCart() {
 }
 
 export function CartProvider({ children }) {
-  const [numOfItemsInCart, setNumOfItemsInCart] = useState(0);
-  const [itemsInCart, setItemsInCart] = useState([]);
+  /// DECLARE LOCAL STORAGE CONSTANTS
+  const localStorageItemsInCart = JSON.parse(
+    window.localStorage.getItem("TOP_SHOPPING_CART_APP_itemsInCart")
+  );
+  const localStorageNumOfItemsInCart = JSON.parse(
+    window.localStorage.getItem("TOP_SHOPPING_CART_APP_numOfItemsInCart")
+  );
+
+  /// DECLARE STATE
+  const [numOfItemsInCart, setNumOfItemsInCart] = useState(localStorageNumOfItemsInCart || 0);
+  const [itemsInCart, setItemsInCart] = useState(localStorageItemsInCart || []);
   const [subtotalPrice, setSubtotalPrice] = useState(0);
+
+  /// UPDATE LOCAL STORAGE
+  useEffect(() => {
+    window.localStorage.setItem("TOP_SHOPPING_CART_APP_itemsInCart", JSON.stringify(itemsInCart));
+    window.localStorage.setItem(
+      "TOP_SHOPPING_CART_APP_numOfItemsInCart",
+      JSON.stringify(numOfItemsInCart)
+    );
+  }, [itemsInCart, numOfItemsInCart]);
 
   const calculateTotalPriceItem = (array, index) => {
     const priceForOne = array[index].price; // Declare fixed price

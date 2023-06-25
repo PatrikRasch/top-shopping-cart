@@ -25,7 +25,7 @@ const Cart = (props) => {
   const displayCartItems = () => {
     if (itemsInCart.length === 0) return;
     return itemsInCart.map((item) => (
-      <div className="cart-card">
+      <div key={item.id} className="cart-card">
         <div className="cart-card-left">
           <img src={item.image} alt="" className="cart-item-image" />
         </div>
@@ -33,7 +33,12 @@ const Cart = (props) => {
           <div className="cart-item-title">{item.title}</div>
           <div className="cart-item-price">${item.priceForAll}</div>
           <div className="cart-number-of-item-wrapper">
-            <button className="remove-one-item" onClick={() => addOrRemoveOneOfItem(item, -1)}>
+            <button
+              className="remove-one-item"
+              onClick={() => {
+                addOrRemoveOneOfItem(item, -1);
+              }}
+            >
               -
             </button>
             <div className="cart-number-of-item">{item.numOfItemInCart}</div>
