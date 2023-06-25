@@ -45,13 +45,17 @@
   height: 48px;
   background-color: var(--black);
   border: none;
-  transition: 0.1s;
+  transition: 0.15s;
   border-radius: 5px;
 }
 
 .product-add-to-cart-text {
   font-size: 20px;
   color: var(--white);
+}
+
+.item-added-to-cart {
+  background-color: var(--orange);
 }
 
 .product-add-to-cart-button-clicked-button {
