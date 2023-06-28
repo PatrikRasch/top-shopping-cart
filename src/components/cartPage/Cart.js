@@ -22,6 +22,7 @@ const Cart = (props) => {
       </div>
     );
   };
+
   const displayCartItems = () => {
     if (itemsInCart.length === 0) return;
     return itemsInCart.map((item) => (
