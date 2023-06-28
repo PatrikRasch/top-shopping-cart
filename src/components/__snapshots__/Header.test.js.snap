@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component changes to homepage when home button is clicked, snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="cart-overlay"
+    >
+      <div
+        class="cart-overlay-cart cart-overlay-cart-invisible"
+      >
+        <div
+          class="cart"
+        >
+          <div
+            class="cart-title"
+          >
+            Your Basket
+          </div>
+          <div
+            class="cart-all-cards"
+          >
+            <div
+              class="empty-basket-message"
+            >
+              Your basket is empty, go add some unreal clothing to it!
+            </div>
+          </div>
+          <div
+            class="cart-summary"
+          >
+            <div
+              class="totalPrice"
+            >
+              Total: $0
+            </div>
+            <button
+              class="checkout-button"
+            >
+              Checkout
+            </button>
+            <button
+              class="close-button"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="cart-overlay-background cart-overlay-background-invisible cart-background-disabled"
+      />
+    </div>
+    <div
+      class="header-wrapper-background"
+    >
+      <div
+        class="header-wrapper"
+      >
+        <div
+          class="header-title"
+        >
+          UNREAL CLOTHING
+        </div>
+        <div
+          class="spacer"
+        />
+        <div
+          class="header-buttons"
+        >
+          <button
+            class="header-button home-button"
+          >
+            Home
+          </button>
+          <button
+            class="header-button products-button"
+          >
+            Products
+          </button>
+          <button
+            class="header-button contact-button"
+          >
+            Contact
+          </button>
+          <button
+            class="header-button cart-button"
+          >
+            <div
+              class="shopping-cart-circle"
+            >
+              <img
+                alt="Shopping cart button. Go to cart."
+                class="shopping-cart-logo"
+                src="shopping-cart.png"
+              />
+              <div
+                class="item-count hidden"
+                data-testid="itemCount"
+              >
+                0
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="content-wrapper"
+  >
+    <div
+      class="content-images-wrapper"
+    >
+      <div
+        class="single-image-wrapper"
+      >
+        <div
+          class="content-image-shading"
+        />
+        <img
+          alt="background display 1"
+          class="content-image content-image1"
+          src="content-page9.webp"
+        />
+      </div>
+      <div
+        class="single-image-wrapper"
+      >
+        <div
+          class="content-image-shading"
+        />
+        <img
+          alt=""
+          class="content-image content-image2"
+          src="content-page7.webp"
+        />
+      </div>
+      <div
+        class="single-image-wrapper"
+      >
+        <div
+          class="content-image-shading"
+        />
+        <img
+          alt=""
+          class="content-image content-image3"
+          src="content-page4.webp"
+        />
+      </div>
+    </div>
+    <div
+      class="content-title"
+    >
+      <i>
+        Your Gateway
+      </i>
+       into 
+      <b>
+        Fashion
+      </b>
+    </div>
+    <button
+      class="shop-now"
+    >
+      SHOP NOW
+    </button>
+  </div>
+</DocumentFragment>
+`;
