@@ -36,6 +36,7 @@
 .cart-all-cards {
   overflow: scroll;
   max-height: 70vh;
+  overflow-x: hidden;
 }
 
 .cart-card {
