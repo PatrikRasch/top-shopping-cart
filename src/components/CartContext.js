@@ -91,7 +91,7 @@ export function CartProvider({ children }) {
   };
 
   const addToCartTotal = () => {
-    setNumOfItemsInCart(numOfItemsInCart + 1);
+    setNumOfItemsInCart((prevNumOfItemsInCart) => prevNumOfItemsInCart + 1);
   };
 
   /// Removes items from the cart if the number of the item in the cart is 0
