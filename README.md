@@ -16,6 +16,6 @@ At this point in The Odin Project we've already extensively covered testing with
 
 NB: This is not a real store.\
 Users can check out the articles the page has on display and add them to cart, as well as "purchase" the items they've placed in their basket. The basket will then reset.\
-There's also a contact page users can check out. This page contains a few links to some YouTube videos I either find amusing or that show a piece of my personality. There's also a link to my GitHub on this page.\
+There's also a contact page users can check out. This page contains a few links to some YouTube videos I either find amusing or that show a piece of my personality. There's also a link to my GitHub on this page.
 
 The webpage is plain and functionality is quite limited, this is on purpose.
