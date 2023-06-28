@@ -1,5 +1,5 @@
 import "./products.css";
-import Product from "./product";
+import Product from "./Product";
 
 import shirt1 from "./../../images/clothing/shirt1.png";
 import shirt2 from "./../../images/clothing/shirt2.png";
