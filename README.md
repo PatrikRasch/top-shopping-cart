@@ -1,5 +1,7 @@
 # Shopping Cart Project from The Odin Project
 
+A simple fake store React app.
+
 This project is a part of The Odin Project's JavaScript course. The lesson can be found here: https://www.theodinproject.com/lessons/node-path-javascript-shopping-cart
 
 This project is live on GitHub Pages and can be found here: https://patrikrasch.github.io/top-shopping-cart/
