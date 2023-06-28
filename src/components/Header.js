@@ -71,7 +71,10 @@ const Header = () => {
                   alt="Shopping cart button. Go to cart."
                   className="shopping-cart-logo"
                 />
-                <div className={`item-count ${numOfItemsInCart === 0 ? "hidden" : ""}`}>
+                <div
+                  className={`item-count ${numOfItemsInCart === 0 ? "hidden" : ""}`}
+                  data-testid="itemCount"
+                >
                   {numOfItemsInCart}
                 </div>
               </div>
