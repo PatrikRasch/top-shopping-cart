@@ -41,7 +41,7 @@ const Product = (props) => {
   return (
     <div className="all-products-wrapper">
       <div className="product-card">
-        <img src={props.image} alt="" className="product-image" />
+        <img src={props.image} loading="lazy" alt="" className="product-image" />
         <div className="product-price">${props.price}</div>
         <div className="product-title">{props.title}</div>
         <div className="product-add-to-cart-wrapper">
