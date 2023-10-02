@@ -1,26 +1,26 @@
 import "./products.css";
 import Product from "./Product";
 
-import shirt1 from "./../../images/clothing/shirt1.png";
-import shirt2 from "./../../images/clothing/shirt2.png";
-import shirt3 from "./../../images/clothing/shirt3.png";
-import shirt4 from "./../../images/clothing/shirt4.png";
-import shirt5 from "./../../images/clothing/shirt5.png";
-import shirt6 from "./../../images/clothing/shirt6.png";
-import shirt7 from "./../../images/clothing/shirt7.png";
-import shirt11 from "./../../images/clothing/shirt11.png";
-import shirt15 from "./../../images/clothing/shirt15.png";
-import shirt16 from "./../../images/clothing/shirt16.png";
-import tshirt1 from "./../../images/clothing/tshirt1.png";
-import tshirt2 from "./../../images/clothing/tshirt2.png";
-import jacket1 from "./../../images/clothing/jacket1.png";
-import jacket3 from "./../../images/clothing/jacket3.png";
-import jacket4 from "./../../images/clothing/jacket4.png";
-import hoodie1 from "./../../images/clothing/hoodie1.png";
-import polo1 from "./../../images/clothing/polo1.png";
-import shoes1 from "./../../images/clothing/shoes1.png";
-import shoes2 from "./../../images/clothing/shoes2.png";
-import shoes3 from "./../../images/clothing/shoes3.png";
+import shirt1 from "./../../images/clothing/shirt1.webp";
+import shirt2 from "./../../images/clothing/shirt2.webp";
+import shirt3 from "./../../images/clothing/shirt3.webp";
+import shirt4 from "./../../images/clothing/shirt4.webp";
+import shirt5 from "./../../images/clothing/shirt5.webp";
+import shirt6 from "./../../images/clothing/shirt6.webp";
+import shirt7 from "./../../images/clothing/shirt7.webp";
+import shirt11 from "./../../images/clothing/shirt11.webp";
+import shirt15 from "./../../images/clothing/shirt15.webp";
+import shirt16 from "./../../images/clothing/shirt16.webp";
+import tshirt1 from "./../../images/clothing/tshirt1.webp";
+import tshirt2 from "./../../images/clothing/tshirt2.webp";
+import jacket1 from "./../../images/clothing/jacket1.webp";
+import jacket3 from "./../../images/clothing/jacket3.webp";
+import jacket4 from "./../../images/clothing/jacket4.webp";
+import hoodie1 from "./../../images/clothing/hoodie1.webp";
+import polo1 from "./../../images/clothing/polo1.webp";
+import shoes1 from "./../../images/clothing/shoes1.webp";
+import shoes2 from "./../../images/clothing/shoes2.webp";
+import shoes3 from "./../../images/clothing/shoes3.webp";
 
 const Products = () => {
   return (

@@ -26,3 +26,6 @@ yarn-error.log*
 /assets
 /src/images/original-images
 /src/images/excess-images
+/src/images/contact-page/pre-webp
+/src/images/content-page/pre-webp
+/src/images/clothing/pre-webp
